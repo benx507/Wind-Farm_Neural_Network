@@ -54,8 +54,8 @@ for row in df['Wind Speed (m/s)']:
     cnt+=1
 
 #If column missing value of types above, replace with 0. 
-df['Wind Speed (m/s)'].fillna(125, inplace=True)
-df['Wind Direction (°)'].fillna(125, inplace=True)
+df['Wind Speed (m/s)'].fillna(0, inplace=True)
+df['Wind Direction (°)'].fillna(0, inplace=True)
 
 #SCALE DATA INPUTS
 
